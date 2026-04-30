@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>回望·黄金时代</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            padding: 72px 0 56px;
+        }
+        .hero-quote {
+            font-size: 1.7rem;
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.55;
+            color: var(--text-color);
+            margin: 0 0 20px 0;
+            letter-spacing: 0.02em;
+            font-family: "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
+        }
+        .hero-quote .emphasis {
+            color: var(--accent-color);
+        }
+        .hero-sub {
+            font-size: 0.95rem;
+            color: var(--secondary-text);
+            line-height: 1.8;
+            max-width: 520px;
+        }
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border-color);
+            margin: 0 0 32px 0;
+        }
+        .section-label {
+            font-size: 0.78rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--secondary-text);
+            margin-bottom: 18px;
+        }
+        .post-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 28px 0;
+        }
+        .post-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .post-list li:first-child {
+            border-top: 1px solid var(--border-color);
+        }
+        .post-list a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.2s;
+            flex: 1;
+            margin-right: 16px;
+        }
+        .post-list a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+        .all-link {
+            font-size: 0.88rem;
+            color: var(--secondary-text);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .all-link:hover {
+            color: var(--text-color);
+        }
+        .coming-soon {
+            font-size: 0.92rem;
+            color: var(--secondary-text);
+            line-height: 1.8;
+            padding: 24px;
+            background: var(--quote-bg);
+            border-radius: 6px;
+            border-left: 3px solid var(--warm-glow);
+        }
+        .coming-soon a {
+            color: var(--secondary-text);
+            text-decoration: underline;
+            text-decoration-color: #d5c9b0;
+            text-underline-offset: 3px;
+        }
+        .coming-soon a:hover {
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html"><span class="site-name">回望·黄金时代</span></a></h1>
+            <nav>
+                <a href="index.html" class="active">首页</a>
+                <a href="about.html">关于</a>
+                <a href="blog/">文章</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <p class="hero-quote">
+                当年<span class="emphasis">我也</span>想到这些是我的黄金时代，<br>我就身处其中，虽然痛苦，但那是我的黄金时代。
+            </p>
+            <p class="hero-sub">
+                这里是我和 AI 的对谈、随手写的散文、读过的好书——所有不方便归类但舍不得丢掉的东西，都放在这儿。
+            </p>
+        </section>
+
+        <hr class="divider">
+
+        <p class="section-label">最近写的</p>
+        <ul class="post-list">
+            <li>
+                <a href="blog/kesu-ask-01-ddia.html">可素问 · 第一回——AI 时代，我们还要不要读大部头？</a>
+                <span class="date">2026-04-30</span>
+            </li>
+        </ul>
+        <a href="blog/" class="all-link">全部文章 →</a>
+
+        <hr class="divider" style="margin-top: 28px;">
+
+        <p class="section-label">栏目</p>
+        <div class="coming-soon">
+            <p style="margin:0 0 12px 0;"><strong>可素问</strong> · 和 AI 的对谈录。问一个问题，然后听它怎么答，再记下我自己的批注。</p>
+            <p style="margin:0 0 12px 0;"><strong>散文</strong> · 自己写的文章。和公众号「红拂跑了」同步。</p>
+            <p style="margin:0;"><strong>读书</strong> · 赏读与书评。目前只有一本真正想写的——<a href="blog/reading-golden-age.html">《黄金时代》</a>。</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 回望·黄金时代. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

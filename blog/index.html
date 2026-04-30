@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章 | 回望·黄金时代</title>
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .page-title {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 44px 0 8px;
+            letter-spacing: 0.03em;
+        }
+        .page-sub {
+            font-size: 0.88rem;
+            color: var(--secondary-text);
+            margin-bottom: 32px;
+            line-height: 1.7;
+        }
+        .article-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .article-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .article-list li:first-child {
+            border-top: 1px solid var(--border-color);
+        }
+        .article-meta {
+            flex: 1;
+            margin-right: 16px;
+        }
+        .article-meta a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            font-size: 1.05rem;
+            transition: color 0.2s;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .article-meta a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+        .article-excerpt {
+            font-size: 0.82rem;
+            color: #aaaaaa;
+            margin-top: 4px;
+            line-height: 1.6;
+        }
+        .article-tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+        .tag {
+            font-size: 0.73rem;
+            color: var(--secondary-text);
+            background: #f0ede5;
+            padding: 2px 8px;
+            border-radius: 10px;
+            white-space: nowrap;
+        }
+        .section-label {
+            font-size: 0.78rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--secondary-text);
+            margin: 36px 0 16px;
+            padding-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="../index.html"><span class="site-name">回望·黄金时代</span></a></h1>
+            <nav>
+                <a href="../index.html">首页</a>
+                <a href="../about.html">关于</a>
+                <a href="index.html" class="active">文章</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="page-title">文章</h2>
+        <p class="page-sub">所有不方便归类但舍不得丢掉的东西，都放在这儿。</p>
+
+        <p class="section-label">可素问</p>
+        <ul class="article-list">
+            <li>
+                <div class="article-meta">
+                    <a href="kesu-ask-01-ddia.html">可素问 · 第一回——AI 时代，我们还要不要读大部头？</a>
+                    <div class="article-excerpt">DDIA 我读过一遍，没有重读。现在 AI 时代了，有追求的程序员还需要反复啃大部头吗？虽然知道答案是肯定的，但想听听 AI 的思考。</div>
+                    <div class="article-tags">
+                        <span class="tag">可素问</span>
+                        <span class="tag">DDIA</span>
+                    </div>
+                </div>
+                <span class="date">2026-04-30</span>
+            </li>
+        </ul>
+
+        <p class="section-label">读书</p>
+        <ul class="article-list">
+            <li>
+                <div class="article-meta">
+                    <a href="reading-golden-age.html">《黄金时代》赏读</a>
+                    <div class="article-excerpt">读了一百遍的书，每次打开都能看见不同时间的自己。</div>
+                    <div class="article-tags">
+                        <span class="tag">读书</span>
+                        <span class="tag">王小波</span>
+                    </div>
+                </div>
+                <span class="date">即将发布</span>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 回望·黄金时代. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
